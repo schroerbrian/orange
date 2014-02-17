@@ -3,6 +3,8 @@ require 'rubygems'
 require 'compass'
 require 'json'
 require 'httparty'
+require 'sass'
+
 
 # functions
 def get_park
@@ -23,3 +25,15 @@ get '/' do
   erb :index, locals: { current_park: current_park } 
 end
 
+get "/main.css" do
+  scss :main
+end
+
+
+get "/normalize.css" do
+  scss :normalize
+end
+
+# get '/*' do
+#   redirect('/')
+# end
