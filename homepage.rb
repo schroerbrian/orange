@@ -3,23 +3,23 @@ require 'rubygems'
 require 'compass'
 require 'json'
 require 'httparty'
-# require 'sinatra/cache'
 
-get '/' do
+# functions
+def get_park
+  current_park = nil
   parks = HTTParty.get("http://mhpmproperties.herokuapp.com/api/parks")
-  # parks = JSON.parse response.body
-  puts parks 
-  erb :index, locals: { parks: parks } 
+  
+  parks.each_with_index do |park, index|
+    if park["name"].split(" ").first.downcase == File.basename(Dir.getwd).downcase
+      current_park = parks[index]
+    end
+  end
+  return current_park
+end 
+
+# routes
+get '/' do
+  current_park = get_park
+  erb :index, locals: { current_park: current_park } 
 end
 
-
-# get '/:username/:id' do
-#   begin 
-#     response = HTTParty.get("https://api.momentage.com/api/v2/moments/#{params[:id]}?auth_token=r3ybiesKBnwx9MHyoskm")
-#     moment = JSON.parse response.body
-#     puts moment
-#     haml :show, :locals => { :moment => moment }
-#   rescue
-#     haml :show_rescue 
-#   end  
-# end

@@ -1,0 +1,27 @@
+
+.homes li {
+  margin-top: 1.5em;
+  display: block;
+  overflow: hidden;
+}
+
+.homes .first {margin-top: 0;}
+.homes .last {margin-bottom: 1.5em;}
+
+.homes img {
+  width: 150px;
+  height: auto;
+}
+
+.home-img {
+  float:left;
+}
+
+.home-info {
+  vertical-align: 38px;
+  float: left;
+}
+
+.home-title {
+  font-weight: 600;
+}
