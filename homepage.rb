@@ -1,5 +1,6 @@
 require "bundler"
 require 'sinatra'
+require 'httparty'
 
 # functions
 def get_park
