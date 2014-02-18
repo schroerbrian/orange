@@ -200,7 +200,7 @@ img { width: 550px; }
 
 .header {
   height: 150px;
-  background-image: url("../img/palms2.jpg");
+  background-image: url("images/palms2.jpg");
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -351,7 +351,7 @@ footer {
     position:absolute;
     padding:15px 18px 0 18px;    
     z-index:50;
-    background:url(../img/bg_barousel_content.png) repeat 0 0;
+    background-image: url(images/bg_barousel_content.png) repeat 0 0;
     color:#fff;
     width:247px;
     bottom:36px;
@@ -448,14 +448,14 @@ footer {
 
 .barousel_nav li.prev a
 {
-    background-image:url(../img/left.png);
+    background-image:url(images/left.png);
     background-repeat:no-repeat;
     background-position:4px 2px;
 }
 
 .barousel_nav li.next a
 {
-    background-image:url(../img/right.png);
+    background-image:url(images/right.png);
     background-repeat:no-repeat;
     background-position:4px 2px;
 }

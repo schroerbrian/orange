@@ -4,15 +4,15 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <title>current_park["name"] Mobile Home Park in Orange, CA | Orange County Senior Mobile Home Park</title>
+        <title><%= current_park["name"] %> Mobile Home Park in Orange, CA | Orange County Senior Mobile Home Park</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">   
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="keywords" content="Orange Village, Mobile Home Parks, Senior Communities, Senior living, Mobile Homes For Sale in Orange County, California, 55 Mobile Home Pars" />
-        <meta name="description" content="Orange Village Mobile Home Park in Orange, CA is a 55 plus senior mobile home park located in Orange County, CA.  New and used manufactured homes for sale. (714)538-1749." />
+        <meta name="keywords" content="<%= current_park["name"] %>, Mobile Home Parks, Senior Communities, Senior living, Mobile Homes For Sale in Orange County, California, 55 Mobile Home Pars" />
+        <meta name="description" content="<%= current_park["name"] %> Mobile Home Park in Orange, CA is a 55 plus senior mobile home park located in Orange County, CA.  New and used manufactured homes for sale. (714)538-1749." />
 
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -28,7 +28,6 @@
         <!-- Add your site or application content here -->
         <div class="page-wrap">
           <div class="container ma-auto cf">
-            <%= current_park %>
             <header class="pl-sm header">
               <span class="title-wr">
                 <h1 class="title"> <%= current_park["name"] %> </h1>
@@ -52,24 +51,24 @@
                 <div id="any_id" class="barousel">
                     <div class="barousel_image">
                         <!-- image 1 -->
-                        <img src="img/park/ov-sign.jpg" alt="<%= current_park["name"] %> Senior Mobile Home Park" class="default" />
+                        <img src="images/park/ov-sign.jpg" alt="<%= current_park["name"] %> Senior Mobile Home Park" class="default" />
                         <!-- image 2 -->
-                        <img src="img/park/main-road1.JPG" alt="The main road" />
+                        <img src="images/park/main-road1.JPG" alt="The main road" />
                         <!-- image 3 -->
-                        <img src="img/park/large-home.JPG" alt="One of our homes" />
+                        <img src="images/park/large-home.JPG" alt="One of our homes" />
                         <!-- image 4 -->
-                        <img src="img/park/pool1.JPG" alt="We have a pool!" />
+                        <img src="images/park/pool1.JPG" alt="We have a pool!" />
                         <!-- image 5 -->
-                        <img src="img/park/nice-home.JPG" alt="A nice home" />
+                        <img src="images/park/nice-home.JPG" alt="A nice home" />
                         <!-- image 6 -->
-                        <img src="img/park/road.JPG" alt="Road through the park" />
+                        <img src="images/park/road.JPG" alt="Road through the park" />
                         <!-- image 7 -->
-                        <img src="img/park/animals.JPG" alt="A nice garden" />
+                        <img src="images/park/animals.JPG" alt="A nice garden" />
                         <!-- image 8 -->
-                        <img src="img/park/nice-home1.JPG" alt="Another nice home" />
+                        <img src="images/park/nice-home1.JPG" alt="Another nice home" />
                         <!-- image 9 -->
-                        <img src="img/park/home-foliage.JPG" alt="Another nice home" />
-                        <img src="img/park/large-sign.JPG" alt="The main road" />
+                        <img src="images/park/home-foliage.JPG" alt="Another nice home" />
+                        <img src="images/park/large-sign.JPG" alt="The main road" />
                     </div>
                     <div class="barousel_content">
                         <!-- content 1 -->
