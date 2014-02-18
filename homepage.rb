@@ -1,11 +1,5 @@
 require "bundler"
 require 'sinatra'
-require 'rubygems'
-require 'compass'
-require 'json'
-require 'httparty'
-require 'sass'
-
 
 # functions
 def get_park
