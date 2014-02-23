@@ -1,7 +1,7 @@
 require "bundler"
 require 'sinatra'
 require 'httparty'
-
+require 'sass'
 # functions
 # def get_park
 #   current_park = nil
@@ -17,15 +17,15 @@ require 'httparty'
 
 # routes
 get '/' do
-  current_park = nil
-  parks = HTTParty.get("http://mhpmproperties.herokuapp.com/api/parks")
+  # current_park = nil
+  # parks = HTTParty.get("http://mhpmproperties.herokuapp.com/api/parks")
   
-  parks.each_with_index do |park, index|
-    if park["name"].split(" ").first.downcase == File.basename(Dir.getwd).downcase
-      current_park = parks[index]
-    end
-  end
-
+  # parks.each_with_index do |park, index|
+  #   if park["name"].split(" ").first.downcase == File.basename(Dir.getwd).downcase
+  #     current_park = parks[index]
+  #   end
+  # end
+  current_park = "hi"
   erb :index, locals: { current_park: current_park } 
 end
 
