@@ -19,11 +19,16 @@ require 'sass'
 get '/' do
   current_park = nil
   parks = HTTParty.get("http://mhpmproperties.herokuapp.com/api/parks") 
+  puts parks 
   parks.each_with_index do |park, index|
     if park["name"].split(" ").first.downcase == File.basename(Dir.getwd).downcase
       current_park = parks[index]
+      puts current_park["name"] + " is the current_park"
+    else 
+      puts "no current park"
     end
   end
+  current_park = { "name" => "park" }
   erb :index, locals: { current_park: current_park } 
 end
 
