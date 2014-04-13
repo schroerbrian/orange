@@ -35,16 +35,9 @@
                 <h1 class="title">Orange Village</h1>
                 <h2 class="sub-title">A Mobile Home Community</h2>
               </span>
-            </header>  
+            </header>
 
-            <nav class="orange-gr">
-              <ul class="no-list-type">
-                <li class="inlb nav nav-left"><a href="index.html">Home</a></li>
-                <li class="inlb nav"><a href="gallery.html" id="gallery">Photo Gallery</a></li>
-                <li class="inlb nav"><a href="homes.html" id="homes">Homes For Sale  </a></li>
-                <li class="inlb nav nav-right"><a href="contact.html" id="contact">Contact Us</a></li>
-              </ul>
-            </nav>
+            <%= erb :_nav %>
             
             <div class="two-thirds" >
 
@@ -52,40 +45,16 @@
                 <h2 class="sub-title cont-title">Homes for sale</h2>
                 <ul class="homes">
                   <!-- NB: For SOME REASON some of the images are JPG and some are jpg. PAY ATTN -->
-
-                  <li class="first">
-                    <a href="#" class="">
-                      <img src="img/park/large-home.JPG" alt="One of our homes" class="home-img">
-                    </a>
-                    <span class="home-info pl-mc">
-                      <span class="home-title">Home1</span><br>
-                      <span>123 Elmwood Way, Orange Village</span><br>
-                      <span>A very nice home</span>
-                    </span>
-                  </li>
-                 
-                  <li>
-                    <a href="#" class="">
-                      <img src="img/park/nice-home.JPG" alt="A nice home" class="home-img">
-                    </a>
-                    <span class="home-info pl-mc">
-                      <span class="home-title">Home2</span><br>
-                      <span>123 Elmwood Way, Orange Village</span><br>
-                      <span>A very nice home</span>  
-                    </span>
-                  </li>
-
-                  <li class="last">
-                    <a href="#" class="">
-                      <img src="img/park/nice-home1.JPG" alt="Another nice home" class="home-img">
-                    </a>
-                    <span class="home-info pl-mc">
-                      <span class="home-title">Home3</span><br>
-                      <span>123 Elmwood Way, Orange Village</span><br>
-                      <span>A very nice home</span>
-                    </span>
-                  </li>
-                
+                  <li>hi</li>
+                  <% homes.each do |h| %>
+                    <%= h['name'] %>
+                    <br>
+                    <% if h['images'].length > 0 %>
+                      <% h['images'].each do |i| %>
+                        <img src="<%= i['image']['url'] %>">
+                      <% end %>
+                    <% end %>
+                  <% end %>
                 </ul>              
               </div>
             

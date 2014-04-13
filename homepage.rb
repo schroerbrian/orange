@@ -18,7 +18,13 @@ def get_park
     end
   end
   return current_park
-end 
+end
+
+def get_homes
+  homes = HTTParty.get("http://mhpmproperties.herokuapp.com/api/homes")
+  puts homes
+  return homes 
+end
 
 # routes
 get '/' do
@@ -27,8 +33,8 @@ get '/' do
 end
 
 get '/homes' do
-  current_park = get_park
-  erb :homes, locals: { current_park: current_park } 
+  homes = get_homes
+  erb :homes, locals: { homes: homes } 
 end 
 
 get '/gallery' do
