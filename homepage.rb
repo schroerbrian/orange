@@ -2,6 +2,7 @@ require "bundler"
 require 'sinatra'
 require 'httparty'
 require 'sass'
+require 'newrelic_rpm'
 
 # functions
 def get_park
@@ -28,6 +29,16 @@ end
 get '/homes' do
   current_park = get_park
   erb :homes, locals: { current_park: current_park } 
+end 
+
+get '/gallery' do
+  current_park = get_park
+  erb :gallery, locals: { current_park: current_park } 
+end 
+
+get '/contact' do
+  current_park = get_park
+  erb :contact, locals: { current_park: current_park } 
 end 
 
 get "/main.css" do
