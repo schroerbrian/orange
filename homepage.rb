@@ -25,10 +25,14 @@ get '/' do
   erb :index, locals: { current_park: current_park } 
 end
 
+get '/homes' do
+  current_park = get_park
+  erb :homes, locals: { current_park: current_park } 
+end 
+
 get "/main.css" do
   scss :main
 end
-
 
 get "/normalize.css" do
   scss :normalize

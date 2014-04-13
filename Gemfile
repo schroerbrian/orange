@@ -6,3 +6,5 @@ gem 'sinatra'
 gem 'json'
 gem 'httparty'
 gem 'sass'
+
+gem 'newrelic_rpm'
