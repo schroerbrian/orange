@@ -51,6 +51,10 @@ get "/main.css" do
   scss :main
 end
 
+get "/homes.css" do
+  scss :homes
+end
+
 get "/normalize.css" do
   scss :normalize
 end

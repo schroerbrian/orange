@@ -45,15 +45,29 @@
                 <h2 class="sub-title cont-title">Homes for sale</h2>
                 <ul class="homes">
                   <!-- NB: For SOME REASON some of the images are JPG and some are jpg. PAY ATTN -->
-                  <li>hi</li>
                   <% homes.each do |h| %>
-                    <%= h['name'] %>
-                    <br>
-                    <% if h['images'].length > 0 %>
-                      <% h['images'].each do |i| %>
-                        <img src="<%= i['image']['url'] %>">
-                      <% end %>
-                    <% end %>
+                    <li class="first">
+                      <a href="">
+                        <% if h['images'].length > 0 %>
+                          <% h['images'].each_with_index do |i, x| %>
+                            <% if x == 0 %>  
+                              <img src="<%= i['image']['url'] %>" class="home-img">
+                            <% end %>
+                          <% end %>
+                        <% end %>  
+                      </a>
+                      <span class="home-info pl-mc">
+                        
+                        <% if h["description"].length > 2 %>  
+                          <span class="dis-bl"><strong>Description: </strong> <%= h["description"] %></span>
+                        <% end %>
+                        <span class="dis-bl"><strong>Bedrooms:</strong> <%= h["bedrooms"] %></span>
+                        <span class="dis-bl"><strong>Bathrooms:</strong> <%= h["bathrooms"] %></span>
+                        <span class="dis-bl"><strong>Size:</strong> <%= h["width"] %> x <%= h['length'] %> square feet</span>
+                        <span class="dis-bl"><strong>Price:</strong> $<%= h["price"] %></span>
+
+                      </span>
+                    </li>
                   <% end %>
                 </ul>              
               </div>
