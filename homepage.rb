@@ -21,8 +21,13 @@ def get_park
 end
 
 def get_homes
+  orange_id = 1
   homes = HTTParty.get("http://mhpmproperties.herokuapp.com/api/homes")
-  puts homes
+  homes.each {|h|
+    if h['park_id'] != orange_id
+      homes.delete(h)
+    end
+  }
   return homes 
 end
 
