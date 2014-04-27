@@ -45,17 +45,19 @@
                 <h2 class="sub-title cont-title">Homes for sale</h2>
                 <ul class="homes">
                   <!-- NB: For SOME REASON some of the images are JPG and some are jpg. PAY ATTN -->
-                  <% homes.each do |h| %>
-                    <li class="first">
-                      <a href="">
+                  <% homes.each_with_index do |h, i| %>
+                    <% if i == 0 %>
+                      <li class="first">
+                    <% else %>
+                      <li>
+                    <% end %>  
                         <% if h['images'].length > 0 %>
                           <% h['images'].each_with_index do |i, x| %>
                             <% if x == 0 %>  
-                              <img src="<%= i['image']['url'] %>" class="home-img">
+                              <img src="<%= i['image']['thumb']['url'] %>" class="home-img">
                             <% end %>
                           <% end %>
                         <% end %>  
-                      </a>
                       <span class="home-info pl-mc">
                         
                         <% if h["description"].length > 2 %>  
