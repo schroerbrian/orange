@@ -79,33 +79,12 @@
             </div>
 
             <div class="one-third">
-              <div class="sidebar pr-sm pl-mi">
-                <h2 class="sub-title cont-title">Contact Us</h2>
-                <ul class="no-list-type contact-li">
-                  <li>
-                    <h3>Phone</h3>
-                  </li>
-                  <li class="phone">xxx-xxx-xxxx</li> 
-                  <li>
-                    <h3>Email</h3>
-                  </li> 
-                  <li class="email">xxx-xxx-xxxx@xxxXxxx.com</li> 
-                  <li>
-                    <h3>Address</h3>
-                  </li> 
-                  <li class="address">1540 E Trenton Ave <br> Orange, CA 92867
-                  </li>
-                </ul>
-              </div>
+              <%= erb :_contact, locals: { phone: @phone } %>
             </div>
 
           </div>
 
-          <footer class="orange-gr-menus ma-auto">
-            <div class="two-thirds pl-sm">
-              Contact us at xxx-xxx-xxxx
-            </div>  
-          </footer>
+          <%= erb :_footer, locals: { phone: @phone } %>
           
         </div>
 

@@ -181,3 +181,172 @@
 [04/27/14 13:26:18 -0700 Brians-MacBook-Pro-2.local (1021)] INFO : Installing deferred Rack instrumentation
 [04/27/14 13:26:18 -0700 Brians-MacBook-Pro-2.local (1021)] INFO : Finished instrumentation
 [04/27/14 13:26:30 -0700 Brians-MacBook-Pro-2.local (1021)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : Enabling the Request Sampler.
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : Environment: development
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : No known dispatcher detected.
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : Application: Orange
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : Installing Net instrumentation
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:34:11 -0700 brians-mbp-2.home (5056)] INFO : Finished instrumentation
+[05/02/14 14:34:18 -0700 brians-mbp-2.home (5056)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : Enabling the Request Sampler.
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : Environment: development
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : No known dispatcher detected.
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : Application: Orange
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : Installing Net instrumentation
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:46:22 -0700 brians-mbp-2.home (5083)] INFO : Finished instrumentation
+[05/02/14 14:46:25 -0700 brians-mbp-2.home (5083)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : Enabling the Request Sampler.
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : Environment: development
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : No known dispatcher detected.
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : Application: Orange
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : Installing Net instrumentation
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:47:18 -0700 brians-mbp-2.home (5095)] INFO : Finished instrumentation
+[05/02/14 14:47:24 -0700 brians-mbp-2.home (5095)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : Enabling the Request Sampler.
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : Environment: development
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : No known dispatcher detected.
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : Application: Orange
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : Installing Net instrumentation
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:49:03 -0700 brians-mbp-2.home (5109)] INFO : Finished instrumentation
+[05/02/14 14:49:12 -0700 brians-mbp-2.home (5109)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : Enabling the Request Sampler.
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : Environment: development
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : No known dispatcher detected.
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : Application: Orange
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : Installing Net instrumentation
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:49:50 -0700 brians-mbp-2.home (5122)] INFO : Finished instrumentation
+[05/02/14 14:49:55 -0700 brians-mbp-2.home (5122)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : Enabling the Request Sampler.
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : Environment: development
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : No known dispatcher detected.
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : Application: Orange
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : Installing Net instrumentation
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:50:41 -0700 brians-mbp-2.home (5132)] INFO : Finished instrumentation
+[05/02/14 14:50:46 -0700 brians-mbp-2.home (5132)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : Enabling the Request Sampler.
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : Environment: development
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : No known dispatcher detected.
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : Application: Orange
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : Installing Net instrumentation
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:51:51 -0700 brians-mbp-2.home (5142)] INFO : Finished instrumentation
+[05/02/14 14:51:55 -0700 brians-mbp-2.home (5142)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : Enabling the Request Sampler.
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : Environment: development
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : No known dispatcher detected.
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : Application: Orange
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : Installing Net instrumentation
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:54:19 -0700 brians-mbp-2.home (5153)] INFO : Finished instrumentation
+[05/02/14 14:54:24 -0700 brians-mbp-2.home (5153)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : Enabling the Request Sampler.
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : Environment: development
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : No known dispatcher detected.
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : Application: Orange
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : Installing Net instrumentation
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:55:28 -0700 brians-mbp-2.home (5167)] INFO : Finished instrumentation
+[05/02/14 14:55:30 -0700 brians-mbp-2.home (5167)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : Enabling the Request Sampler.
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : Environment: development
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : No known dispatcher detected.
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : Application: Orange
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : Installing Net instrumentation
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:56:14 -0700 brians-mbp-2.home (5177)] INFO : Finished instrumentation
+[05/02/14 14:56:18 -0700 brians-mbp-2.home (5177)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : Enabling the Request Sampler.
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : Environment: development
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : No known dispatcher detected.
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : Application: Orange
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : Installing Net instrumentation
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:57:06 -0700 brians-mbp-2.home (5188)] INFO : Finished instrumentation
+[05/02/14 14:57:09 -0700 brians-mbp-2.home (5188)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : Enabling the Request Sampler.
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : Environment: development
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : No known dispatcher detected.
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : Application: Orange
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : Installing Net instrumentation
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:58:10 -0700 brians-mbp-2.home (5200)] INFO : Finished instrumentation
+[05/02/14 14:58:12 -0700 brians-mbp-2.home (5200)] INFO : Doing deferred dependency-detection before Rack startup
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : Starting the New Relic agent in "development" environment.
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : Reading configuration from config/newrelic.yml
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : Enabling the Request Sampler.
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : Environment: development
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : No known dispatcher detected.
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : Application: Orange
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] WARN : Agent configured not to send data in this environment.
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : Installing Net instrumentation
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : Installing Sinatra instrumentation
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : Installing deferred Rack instrumentation
+[05/02/14 14:59:10 -0700 brians-mbp-2.home (5211)] INFO : Finished instrumentation
+[05/02/14 14:59:12 -0700 brians-mbp-2.home (5211)] INFO : Doing deferred dependency-detection before Rack startup
