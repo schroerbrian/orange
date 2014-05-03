@@ -12,7 +12,7 @@ www.juliendecaudin.com
             contentWrapper: '.barousel_content',
             contentLinksWrapper: null,
             navWrapper: '.barousel_nav',
-            slideDuration: 3000, //duration of each slide in milliseconds
+            slideDuration: 5000, //duration of each slide in milliseconds
             navType: 2, //1: boxes navigation; 2: prev/next navigation; 3: custom navigation
             fadeIn: 0, //fade between slides; activated by default
             fadeInSpeed: 600, //fade duration in milliseconds 

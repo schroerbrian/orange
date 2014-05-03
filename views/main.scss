@@ -294,6 +294,14 @@ nav li:active {
 .phone, .address, .email {
   padding-bottom: 0.5em;
 }
+
+.thumbnail {
+  max-width: 175px;
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
 /*  Footer
 ========================================================================== */
 .page-wrap {
