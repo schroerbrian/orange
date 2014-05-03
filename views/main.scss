@@ -302,6 +302,16 @@ nav li:active {
   margin-left: 5px;
 }
 
+.nice-link {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.nice-link:hover, .nice-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+
 /*  Footer
 ========================================================================== */
 .page-wrap {
